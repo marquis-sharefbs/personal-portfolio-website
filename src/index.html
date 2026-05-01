@@ -2,9 +2,10 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" >
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+		<meta name="description" content="My personal portfolio website." >
 		<title>Sharef Beckum-Swearington Portfolio</title>
-		<link rel="stylesheet" href="/styles.css" />
+		<link rel="stylesheet" href="/styles.css" >
 	</head>
 	
 	<body>
@@ -15,7 +16,7 @@
 				</div>
 				<ul class="navbarMenu" id="navigation">
 					<li class="navbarItem">
-						<a href="#home" class="navbarLink">
+						<a href="index.html" class="navbarLink">
 							Home
 						</a>
 					</li>
@@ -40,6 +41,7 @@
 						</a>
 					</li>
 				</ul>
+				<!--
 				<div class="mobileMenu" id="hamburgerMenu" >
 					<span>Home</span>
 					<span>Skills</span>
@@ -47,10 +49,11 @@
 					<span>About</span>
 					<span>Contact</span>
 				</div>
+				-->
 			</div>
 		</nav>
-		<div class="seperator"></div>
-		<section class="home" id="home">
+		<div class="seperator" id="home"></div>
+		<section class="topOfPage" id="nameTag">
 			<div class="nameTagContainer">
 				<div class="imageWrapper">
 					<img src="https://avatars.githubusercontent.com/u/
@@ -59,12 +62,10 @@
 				<div class="content">
 					<div class="socialIcons">
 						<a href="https://github.com/marquis-sharefbs" target="_blank" rel="noreferrer">
-							<img src="/" alt="Github icons created by Freepik - Flaticon">
-							<a href="https://www.flaticon.com/free-icons/github" title="github icons" aria-hidden="true">Github icons created by Freepik - Flaticon</a>
+							<img src="assets/icons/github.png" alt="Github icons created by Freepik - Flaticon" width="50px">
 						</a>
 						<a href="https://www.linkedin.com/in/sharef-mbs/" target="_blank" rel="noreferrer">
-							<img src="/" alt="Linkedin icons created by Freepik - Flaticon">
-							<a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons" aria-hidden="true">Linkedin icons created by Freepik - Flaticon</a>
+							<img src="assets/icons/linkedin.png" alt="Linkedin icons created by Freepik - Flaticon" width="50px">
 						</a>
 					</div>
 					<h1>Sharef Beckum-Swearington</h1>
@@ -83,19 +84,29 @@
 		</section>
 		<div class="seperator"></div>
 		<section class="container" id="skills">
-			<div class="skillsWrapper">
+			<div class="skillsContainer">
 				<h1>Skills</h1>
 				<div class="skillsGrid">
 					<table>
 						<tr class="categories">
+							<th class="categoryIcons" id="fullStack">
+								<img src="assets/icons/full-stack-developer.png" alt="Full stack developer icons created by Talha Dogar - Flaticon" width="128px">
+							</th>
+							<!--
 							<th class="categoryIcons" id="javascript">
-								<img src="assets/icons/javascript.png" alt="Javascript icons created by Muhammad Atif - Flaticon" width="128px">
+								<img src="/assets/icons/javascript.png" alt="Javascript icons created by Muhammad Atif - Flaticon" width="128px">
 							</th>
-							<th class="categoryIcons">
-								<img src="/" alt="">
+							-->
+							<th class="categoryIcons" id="computerRepair">
+								<img src="assets/icons/repair.png" alt="Repair icons created by Smashicons - Flaticon" width="128px">
 							</th>
-							<th class="categoryIcons">
-								<img src="/" alt="">
+							<!--
+							<th class="categoryIcons" id="python">
+								<img src="/assets/icons/python.png" alt="Code icons created by Freepik - Flaticon" width="128px">
+							</th>
+							-->
+							<th class="categoryIcons" id="itss">
+								<img src="/assets/icons/protection.png" alt="Information system icons created by Misiopstudio - Flaticon" width="128px">
 							</th>
 						</tr>
 						<tr>
@@ -106,23 +117,46 @@
 								Computer Repair and Management
 							</td>
 							<td>
-								Information Systems and Security
+								Information Technology Systems and Security
 							</td>
 						</tr>
 						<tr>
 							<td>
+								I have created this online portfolio from scratch,
+								applying mordern best practices and techniques for
+								readabiliy and accessibility. I am a novice web 
+								developer becoming more familiar with the tools 
+								and languages to provide expert services in the 
+								field of Information Technology and beyond.
 							</td>
 							<td>
+								Across different operating systems, I have assisted 
+								friends and family with their device issues, 
+								fulfilling the role of troubleshooter and hardware
+								consultant and installer. I am confident in 
+								my knowledge and research capabilities to source
+								issues and apply solutions with rollback and 
+								user education in mind.
 							</td>
 							<td>
+								Through many years of maintaining my family's home 
+								network, I have become accustomed with setting up 
+								and modifying LAN networks via router software and 
+								hard network experimentation. I am familiar with DNS,
+								MAC filters, and limiting network access to specific 
+								device identifiers to prevent unauthorized network 
+								access. 
 							</td>
 						</tr>
 						<tr>
 							<td>
+								Tech Stack:
 							</td>
 							<td>
+								Hardware Expertise:
 							</td>
 							<td>
+								Hardware/Network Expertise:
 							</td>
 						</tr>
 					</table>
@@ -130,18 +164,127 @@
 			</div>
 		</section>
 		<div class="seperator"></div>
-		<section class="projects" id="projects">
-			
+		<section class="container" id="projects">
+			<div class="projectsContainer">
+				<div class="projectsGrid">
+					<div class="project">
+						<a>
+							<img>
+						</a>
+						<a>
+							<h2></h2>
+						</a>
+						<p>
+						</p>
+					</div>
+				</div>
+			</div>
 		</section>
 		<div class="seperator"></div>
 		<section class="about" id="about">
 			
 		</section>
 		<div class="seperator"></div>
-		<footer class="contact"></footer>
-		
-		<script>
-					
-		</script>
+		<section class="container" id="contact">
+			<div class="contactContainer">
+				<div class="contentWrapper">
+					<h1>Contact Me</h1>
+					<p>
+						Got an opportunity for a green techy?
+						Leave a comment and let's work together!
+					</p>
+					<form class="contactForm">
+						<div class="formFlex">
+							<div class="rootControl">
+								<label id="userNameRequired" for="nameField">
+									Your Name
+									<span class="asterisk">
+										
+										*
+									</span>
+								</label>
+								<div class="rootInput">
+									<input id="nameField" 
+									name="visitorName" 
+									placeholder="What is your name?"
+									type="text" required>
+<!--
+									<fieldset class="inputBox">
+										<legend class="reminderTransform">
+											<span>
+												Your Name
+												
+												*
+											</span>
+										</legend>
+									</fieldset>
+-->
+								</div>
+							</div>
+							<div class="rootControl">
+								<label id="emailRequired" for="emailField">
+									Your Email
+									<span class="asterisk">
+										
+										*
+									</span>
+								</label>
+								<div class="rootInput">
+									<input id="emailField" 
+									name="visitorEmail" 
+									placeholder="What is your e-mail address?"
+									type="email" required>
+<!--
+									<fieldset class="inputBox">
+										<legend class="reminderTransform">
+											<span>
+												Your Email
+												
+												*
+											</span>
+										</legend>
+									</fieldset>
+-->
+								</div>
+							</div>
+						</div>
+						<div class="rootTextField">
+							<label id="staticNote" 
+							for="textRequired">
+								Your Message
+								<span class="asterisk">
+								
+									*
+								</span>
+							</label>
+							<div class="rootInput">
+								<textarea rows="10"
+								placeholder="Submit any questions,
+								comments, or advice" required>
+								</textarea>
+							</div>
+						</div>
+						<button class="submit" id="send" 
+						type="button">
+							Send
+						</button>
+					</form>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div>
+				<a href="https://github.com/marquis-sharefbs" target="_blank" rel="noreferrer">
+					<img src="assets/icons/github.png" alt="Github icons created by Freepik - Flaticon" width="50px">
+				</a>
+				<a href="https://www.linkedin.com/in/sharef-mbs/" target="_blank" rel="noreferrer">
+					<img src="assets/icons/linkedin.png" alt="Linkedin icons created by Freepik - Flaticon" width="50px">
+				</a>
+			</div>
+			<p>
+				A portfolio website produced by Sharef Beckum-Swearington
+			</p>
+		</footer>
+		<script src="/components/index.js" defer="defer"></script>
 	</body>
 </html>
